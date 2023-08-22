@@ -22,7 +22,7 @@ class BankAccount:
     def display_balance(self):
         print(f"Account {self.account_number} balance:{self.balance}")
 
-
+# child class
 class SavingsAccount(BankAccount):
     def __init__(self, account_number, balance):
         super().__init__(account_number, balance)
